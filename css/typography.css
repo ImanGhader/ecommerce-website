@@ -156,7 +156,7 @@ ul li:before {
   left: -1em;
 }
 
-blockquote{
+blockquote {
   color: #5E7474;
   border-left: 0.25em solid #EDDCC7;
   margin: 1em 0 1.5em;
@@ -164,7 +164,7 @@ blockquote{
 }
 
 hr {
-  border-top:1px dotted #5E7474;
+  border-top: 1px dotted #5E7474;
 }
 
 
