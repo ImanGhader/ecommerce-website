@@ -11,6 +11,10 @@ html {
   font: normal 100%/1.5 'Lato', sans-serif;
 }
 
+body{
+  color: #5E7474;
+}
+
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
@@ -66,6 +70,19 @@ small, .milli {
 .micro {
   font-size: 0.7901rem;
   line-height: 1.8984;
+}
+
+h1, h2, h3, h4, h5, h6, .brand {
+  font-family: helvetica, sans-serif;
+  color: #A08964;
+}
+
+.brand-color {
+  color: #8BD1D9;
+}
+
+.brand-family{
+  font-family: 'Lato',sans-serif;
 }
 
 .push {
