@@ -8,7 +8,7 @@
  */
 
 html {
-  font: normal 100%/1.5 'Raleway', sans-serif;
+  font: normal 100%/1.5 'Dosis', sans-serif;
 }
 
 body{
@@ -180,13 +180,13 @@ table {
 }
 
 th {
-  text-align: right;
+  text-align: left;
   padding-right: 15px;
   color: #55A18B;
 }
 
 .col {
-  text-align: left;
+  text-align: right;
   color: #55A18B;
 }
 
