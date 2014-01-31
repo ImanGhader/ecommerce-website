@@ -20,3 +20,19 @@
 	text-shadow: 2px 2px 0px rgba(0,0,0,6);
 }
 
+.btn:active,
+.btn:focus,
+.btn:hover {
+	background-color: #6CCCB0;
+}
+
+
+.btn-alt:visited {
+	background-color: #6CCCB0;
+}
+
+
+/* a:link {color:#FF0000;}      unvisited link */
+/* a:visited {color:#00FF00;}  visited link */
+/* a:hover {color:#FF00FF;}   mouse over link */
+/* a:active {color:#0000FF;}   selected link */
