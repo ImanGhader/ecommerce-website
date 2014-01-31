@@ -1,0 +1,20 @@
+/*
+  Colour Palette
+  - Light turq: #6CCCB0 - rgb(108,204,176);
+  - Dark turq: #55A18B - rgb(85,161,139);
+  - Dark Green: #5E7474 - rgb (94, 116, 116);
+  - Beige: #A08964 - rgb(160,137,100);
+  - Light beige: #EDDCC7 - rgb(237,220,199);
+ */
+
+
+.large-promo{
+	background-color: #55A18B;
+	min-height: 45rem; 
+}
+
+.media-image,
+.media-body {
+	display: block;
+	margin-left: auto;
+}
