@@ -7,17 +7,13 @@
   - Light beige: #EDDCC7 - rgb(237,220,199);
  */
 
-
-.large-promo{
-	min-height: 45rem; 
-	position: relative;
+.product {
+  border: 2px dashed #EDDCC7;
+  border-radius: 8px;
+  padding: 1em;
 }
 
-
-.body {
-	position: absolute;
-	right: 10em;
-	top: 15em;
+.img-flex {
+	width: 100%;
+	display: block;
 }
-
-

@@ -17,7 +17,7 @@
 	border-style: 4px;
 	box-shadow: 1px 1px 4px rgba(0,0,0,0,0.5); 
 	text-transform: uppercase;
-	text-shadow: 2px 2px 0px rgba(0,0,0,6);
+	text-shadow: 2px 2px 0px rgba (94, 116, 116, 0.5);
 }
 
 .btn:active,
