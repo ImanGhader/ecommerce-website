@@ -20,4 +20,15 @@
 	top: 15em;
 }
 
+.small-promo {
+	min-height: 0;
+	border: 2px outset #55A18B;
+	border-radius: 3px;
+}
+
+.small-promo-img{
+	float: left;
+	margin: 0 10px 0 0;
+}
+
 
