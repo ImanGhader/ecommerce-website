@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*List Group*/
+
+.list-group {
+	list-style-type: none;
+}
+
+.list-item {
+	display: block;
+}
+
