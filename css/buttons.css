@@ -1,0 +1,22 @@
+/*
+  Colour Palette
+  - Light turq: #6CCCB0 - rgb(108,204,176);
+  - Dark turq: #55A18B - rgb(85,161,139);
+  - Dark Green: #5E7474 - rgb (94, 116, 116);
+  - Beige: #A08964 - rgb(160,137,100);
+  - Light beige: #EDDCC7 - rgb(237,220,199);
+ */
+
+.btn,
+.btn:link {
+	color: #fff;
+	display: inline-block;
+	padding: 0.75em 1em;
+	background-color: #55A18B;
+	border-radius: 6px;
+	border-style: 4px;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0,0.5); 
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0px rgba(0,0,0,6);
+}
+
