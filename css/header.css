@@ -16,16 +16,13 @@ nav {
 	right: 2rem;
 	margin: 0;
 	padding: 0;
-
 }
 
 nav,
 ol {
 	text-transform: uppercase;
 	list-style: none;
-	margin: 0;
-
-
+	margin: 1rem 0 0 0;
 }
 
 nav,
@@ -33,6 +30,4 @@ li {
 	display: inline-block;
 	margin: 0.5rem;
 	text-align: right;
-
-
 }
