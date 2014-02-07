@@ -1,0 +1,38 @@
+.header {
+  background-color: #fff;
+  opacity: 0.5;
+  height: auto;
+  width: auto;
+  overflow: hidden;
+}
+
+.logo {
+	margin: 0.5em 0.5em 0 0.5em ;
+}
+
+nav {
+	position: absolute;
+	float: right;
+	right: 2rem;
+	margin: 0;
+	padding: 0;
+
+}
+
+nav,
+ol {
+	text-transform: uppercase;
+	list-style: none;
+	margin: 0;
+
+
+}
+
+nav,
+li {
+	display: inline-block;
+	margin: 0.5rem;
+	text-align: right;
+
+
+}
