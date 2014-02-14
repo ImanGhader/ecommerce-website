@@ -18,6 +18,8 @@
 	position: absolute;
 	right: 10em;
 	top: 15em;
+	background-color: #fff;
+	padding: 1rem;
 }
 
 .small-promo {

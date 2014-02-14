@@ -6,3 +6,8 @@ html {
 	height: 30rem;
 
 }
+
+.img-flex {
+	display: block;
+	width: 100%;
+}

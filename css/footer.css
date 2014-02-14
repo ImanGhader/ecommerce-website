@@ -1,0 +1,31 @@
+footer {
+	border-color: red;
+	background: #000;
+	overflow: hidden;
+	height: 4rem;
+	width: 100%;
+
+}
+
+
+p {
+	right: 2rem;
+	width: auto;
+	z-index: 1000;
+	position: absolute;
+	display: block;
+}
+
+html {
+	background-image: none;
+}
+
+/*er {
+	background: #626262;
+	font-size: .75em;
+	font-weight: 200;
+	color: #FFF;
+	padding: 1em;
+	height: 6rem;
+	font-family: Tahoma, Geneva, sans-serif;
+}*/
