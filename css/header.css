@@ -4,6 +4,7 @@
   height: auto;
   width: auto;
   overflow: hidden;
+
 }
 
 .logo {
@@ -11,23 +12,23 @@
 }
 
 nav {
-	position: absolute;
-	float: right;
-	right: 2rem;
-	margin: 0;
+	padding-top: 2rem;
+}
+
+
+nav ol {
+	text-transform: uppercase;
+	list-style: none;
+	text-align: center;
 	padding: 0;
 }
 
-nav,
-ol {
-	text-transform: uppercase;
-	list-style: none;
-	margin: 1rem 0 0 0;
-}
+@media only screen and (min-width: 30em){
+	.nav .list-item {
+		display: inline-block;
+	}
 
-nav,
-li {
-	display: inline-block;
-	margin: 0.5rem;
-	text-align: right;
+	nav ol {
+		text-align: right;
+	}
 }

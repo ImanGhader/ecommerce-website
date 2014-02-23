@@ -1,24 +1,30 @@
 footer {
-	border-color: red;
 	background: #000;
 	overflow: hidden;
-	height: 4rem;
 	width: 100%;
-
+	padding-top: 1rem;
 }
 
 
-p {
-	right: 2rem;
-	width: auto;
-	z-index: 1000;
-	position: absolute;
-	display: block;
+.copyright {
+	text-align: center;
+}
+
+@media only screen and (min-width: 30em){
+	
+	.copyright {
+		text-align: right;
+		margin-right: 0.75em;
+	}
+	
 }
 
 html {
 	background-image: none;
 }
+
+
+
 
 /*er {
 	background: #626262;

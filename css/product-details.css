@@ -52,7 +52,52 @@ select:focus, select:active {
   outline:0;
 }
 
-option:focus
-{
+option:focus {
   background: pink;
 }
+
+.third-related {
+  display: none;
+}
+
+@media only screen and (min-width: 30px) {
+  .media-img {
+    float: left;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 37.5px) {
+  .third-related {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
