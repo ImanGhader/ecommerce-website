@@ -60,14 +60,14 @@ option:focus {
   display: none;
 }
 
-@media only screen and (min-width: 30px) {
+@media only screen and (min-width: 30em) {
   .media-img {
     float: left;
     width: auto;
   }
 }
 
-@media only screen and (min-width: 37.5px) {
+@media only screen and (min-width: 37.5em) {
   .third-related {
     display: block;
   }
