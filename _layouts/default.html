@@ -32,7 +32,12 @@
 
 		    {% include nav.html navclass='nav-top' %}
 
-		    <img class="banner" src="../images/banner.jpg" alt="">
+		    {% if.page.showbanner %}	
+		<div class="banner">
+			<h2>{{page.bannertext}}</h2>
+		</div>
+		{% endif %} 
+
 
 		</div>
 	</header>
