@@ -5,11 +5,21 @@ bannertext: Welcome to my shop
 showbanner: yes
 ---
 
-<h1> Iman ghader's Shop</h1>
-<p>Come see what's in store</p>
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1 unit-l-3-3">
+		{% include promo-large.html %}
+	</div>
+</div>
 
 
-{% include promo-large.html %}
-
-
-{% include promo-small.html %}
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+		{% include promo-small.html %}
+	</div>
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+		{% include promo-small.html %}
+	</div>
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+		{% include promo-small.html %}
+	</div>
+</div>
