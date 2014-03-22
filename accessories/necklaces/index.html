@@ -1,0 +1,29 @@
+--- 
+layout: default
+title: Accessories
+showbanner: yes
+---
+
+<div>
+	<div>
+		<h1>NECKLACES</h1>
+	</div>
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat quam a dolor sagittis, interdum scelerisque ante venenatis. Nullam dignissim id tortor sed posuere. Nam a malesuada eros. Nunc libero ipsum, hendrerit a lobortis et, rhoncus mattis sapien. Vestibulum ac adipiscing mi, nec tristique libero. In enim enim, sollicitudin in pulvinar id, iaculis vitae augue. Vivamus fringilla mi libero, id convallis urna eleifend at. Duis pharetra semper commodo. Donec est eros.</p>
+	</div>
+</div>
+
+<ul>
+	{% for access in site.pages %}
+		{% if access.type == 'necklaces' %}
+
+			<li>
+				<a href="{{site.baseurl}}{{access.url}}">
+					<img src="{{site.baseurl}}/images/{{access.image}}" alt"">
+					{{access.title}}
+				</a>
+			</li>
+
+		{% endif %}
+	{% endfor %}
+</ul>

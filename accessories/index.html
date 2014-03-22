@@ -1,0 +1,40 @@
+--- 
+layout: default
+title: Accessories
+showbanner: yes
+---
+
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+		<h1>ACCESSORIES</h1>
+	</div>
+
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat quam a dolor sagittis, interdum scelerisque ante venenatis. Nullam dignissim id tortor sed posuere. Nam a malesuada eros. Nunc libero ipsum, hendrerit a lobortis et, rhoncus mattis sapien. Vestibulum ac adipiscing mi, nec tristique libero. In enxim enim, sollicitudin in pulvinar id, iaculis vitae augue. Vivamus fringilla mi libero, id convallis urna eleifend at. Duis pharetra semper commodo. Donec est eros.</p>
+	</div>
+</div>
+
+<div>
+	<nav>
+		<ul>
+			<li><a href="{{site.baseurl}}/accessories/scarfs/">Scarfs</li>
+			<li><a href="{{site.baseurl}}/accessories/rings/">Rings</li>
+			<li><a href="{{site.baseurl}}/accessories/necklaces/">Necklaces</li>
+		</ul>
+	</nav>
+</div>
+
+<ul>
+	{% for access in site.pages %}
+		{% if access.category == 'accessories' %}
+
+			<li>
+				<a href="{{site.baseurl}}{{access.url}}">
+					<img src="{{site.baseurl}}/images/{{access.image}}" alt"">
+					{{access.title}}
+				</a>
+			</li>
+
+		{% endif %}
+	{% endfor %}
+</ul>
