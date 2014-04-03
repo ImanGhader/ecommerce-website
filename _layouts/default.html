@@ -30,6 +30,11 @@
 		    <img class="logo" src="http://placehold.it/200x70" alt="">
 		    </div>
 
+		    <form class="searchform cf" method="get" action="{{site.baseurl}}/search.html">
+			  <input class="search" type="text" placeholder="Search">
+			  <button class="btn" type="submit">Search</button>
+			</form>
+
 		    {% include nav.html navclass='nav-top' %}
 
 		    {% if.page.showbanner %}	

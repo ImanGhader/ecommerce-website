@@ -14,3 +14,5 @@ Claw claw claw claw claw claw really like pink scarfs so this is going to be the
 - Cotton
 - 1 piece 
 - Very long
+
+<a class="btn" href="{{site.baseurl}}/cart.html">I want it!</a>
