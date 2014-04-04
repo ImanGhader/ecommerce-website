@@ -12,13 +12,11 @@
 .btn:visited {
 	color: #fff;
 	display: inline-block;
-	padding: 0.75em 1em;
+	padding: 0.9em 2.5em;
 	background-color: #55A18B;
-	border-radius: 6px;
-	border-style: 4px;
-	box-shadow: 1px 1px 4px rgba(0,0,0,0,0.5); 
 	text-transform: uppercase;
-	text-shadow: 2px 2px 0px rgba (94, 116, 116, 0.5);
+	border: none;
+	margin: 0;
 }
 
 .btn:active,

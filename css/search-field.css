@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* BASE SITE STYLES*/
+/* BASE SITE STYLES
 *,*:after,*:before {
   box-sizing:border-box;
   -moz-box-sizing:border-box;
@@ -26,12 +26,12 @@ a,a:visited {
   color:#fff
 }
 
-/*SEARCH FORM*/
+/*SEARCH FORM
 .searchform {
 	left: 65%;
   padding: 1px 5px;
   position:absolute;
-  width: 339px;
+  width: 8em;
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px
@@ -172,4 +172,4 @@ a,a:visited {
 	 	text-decoration: none;
 		}
 		
-}
+}*/

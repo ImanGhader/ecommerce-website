@@ -43,3 +43,8 @@ html {
 .large-promo {
 	padding: 0 0 2rem 0 ;
 }
+
+.search {
+	padding: 0.7em 0.7em;
+	margin: 6px 0 6px 0;
+}
