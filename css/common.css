@@ -44,7 +44,11 @@ html {
 	padding: 0 0 2rem 0 ;
 }
 
-.search {
+.searchfield {
 	padding: 0.7em 0.7em;
 	margin: 6px 0 6px 0;
+}
+
+.searchform{
+	text-align: right;
 }

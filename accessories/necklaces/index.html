@@ -13,13 +13,13 @@ showbanner: yes
 	</div>
 </div>
 
-<ul>
+<ul class="list-group grid">
 	{% for access in site.pages %}
 		{% if access.type == 'necklaces' %}
 
-			<li>
+			<li class="list-item unit unit-s-1 unit-m-1-2 unit-l-1-3">
 				<a href="{{site.baseurl}}{{access.url}}">
-					<img src="{{site.baseurl}}/images/{{access.image}}" alt"">
+					<img class="img-flex" src="{{site.baseurl}}/images/{{access.image}}" alt"">
 					{{access.title}}
 				</a>
 			</li>

@@ -2,22 +2,23 @@
 layout: default
 title: Home
 ---
+<main role="main">
+	<div class="grid">
+		<div class="unit unit-s-1 unit-m-1 unit-l-3-3">
+			{% include promo-large.html %}
+		</div>
+	</div>
 
-<div class="grid">
-	<div class="unit unit-s-1 unit-m-1 unit-l-3-3">
-		{% include promo-large.html %}
-	</div>
-</div>
 
-
-<div class="grid">
-	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-		{% include promo-small.html %}
+	<div class="grid">
+		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+			{% include promo-small.html %}
+		</div>
+		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+			{% include promo-small.html %}
+		</div>
+		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+			{% include promo-small.html %}
+		</div>
 	</div>
-	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-		{% include promo-small.html %}
-	</div>
-	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-		{% include promo-small.html %}
-	</div>
-</div>
+</main>

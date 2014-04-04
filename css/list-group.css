@@ -10,10 +10,7 @@
 }
 
 .list-item:before {
-	content: "✽"
-	color: #999;
-  	position: absolute;
-  	left: -1em;
+	content: none;
 }
 
 .list-item-inline {
