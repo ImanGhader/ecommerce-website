@@ -4,20 +4,20 @@
   overflow: hidden;
   position: fixed;
   z-index: 1000;
-  background-color: rgba(255,255,255, 0.2);
+  background-color: rgba(255,255,255, 0.3);
 }
 
 .logo {
-	margin: 0.5em 0.5em 0.5em 2em;
-	width: 70%;
+	margin: 0.8em;
+	width: 90%;
 	float: left;
 	display: inline;
 }
 
 nav {
-	padding-top: 3rem;
+	padding-top: 1rem;
 	color: #fff;
-
+	font-size: 0.9em;
 }
 
 
@@ -28,6 +28,19 @@ nav ol {
 	padding: 0;
 }
 
+.banner{
+	background-image: url(../images/banner-1.jpg);
+	background-size: cover;
+	padding: 10em 1em 1em;;
+	text-align: center;
+}
+
+.bannertext {
+	background-color: rgba(255,255,255, 0.3);
+	display: none;
+}
+
+
 @media only screen and (min-width: 30em){
 	.nav .list-item {
 		display: inline-block;
@@ -36,15 +49,13 @@ nav ol {
 	nav ol {
 		text-align: right;
 	}
+
 }
 
-.small-banner{
-	background-image: url(../images/banner-1.jpg);
-	background-size: cover;
-	height: 10em;
-	text-align: center;
+
+@media only screen and (min-width: 37.5em){
+	.bannertext {
+		display: block;
+	}
 }
 
-.banner h2{
-	color: #FF6473;
-}

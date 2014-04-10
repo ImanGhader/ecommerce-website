@@ -15,9 +15,8 @@
 
 .body {
 	position: absolute;
-	right: 10em;
-	top: 15em;
-	background-color: #fff;
+	top: 25em;
+	background-color: rgba(255,255,255, 0.7);
 	padding: 1rem;
 }
 
@@ -30,6 +29,12 @@
 .small-promo-img{
 	float: left;
 	margin: 0 10px 0 0;
+}
+
+@media only screen and (min-width: 30em){
+	.body {
+		right: 10em;
+	}
 }
 
 
