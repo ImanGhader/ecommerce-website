@@ -123,22 +123,22 @@ h1, h2, h3, h4, h5, h6, .brand {
 
 a,
 a:link {
-  color: #55A18B;
+  color: maroon;
   text-decoration: none;
-  border-bottom: 0.1em solid rgba(94, 116, 116, 0.5);
   transition: all 10ms linear;
 }
 
 a:visited {
-  color: #55A18B;
-  border-bottom-color: rgba(94, 116, 116, 0.5);
+  color: maroon;
+  border-bottom-color: rgba(0, 0, 0, 4);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #6CCCB0;
-  border-bottom-color: #6CCCB0;
+  color: #000;
+  border-bottom: 0.4em solid rgba(0, 0, 0, 10);
+
 }
 
 a:hover,
@@ -149,7 +149,7 @@ a:active {
 
 a:focus,
 input:focus,
-button:focus {
+button:focus{
   /* The focus rectangle MUST ALWAYS be visible for keyboard states*/
   outline: 3px solid black;
 }
@@ -221,25 +221,4 @@ mark {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  

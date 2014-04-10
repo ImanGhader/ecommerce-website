@@ -1,18 +1,23 @@
 .header {
-  background-color: #fff;
-  opacity: 0.5;
   height: auto;
-  width: auto;
+  width: 100%;
   overflow: hidden;
-
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(255,255,255, 0.2);
 }
 
 .logo {
-	margin: 0.5em 0.5em 0 0.5em ;
+	margin: 0.5em 0.5em 0.5em 3em;
+	width: 230px;
+	float: left;
+	display: inline;
 }
 
 nav {
-	padding-top: 2rem;
+	padding-top: 3rem;
+	color: #fff;
+
 }
 
 
@@ -33,13 +38,13 @@ nav ol {
 	}
 }
 
-.banner{
-	background: #6e9d1b url("../images/banner.jpg") no-repeat center center;
+.small-banner{
+	background-image: url(../images/banner-1.jpg);
 	background-size: cover;
-	padding: 5em 1em 1em;
+	height: 10em;
 	text-align: center;
-	
 }
+
 .banner h2{
 	color: #FF6473;
 }

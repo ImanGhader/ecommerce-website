@@ -11,19 +11,18 @@
 }
 
 html {
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
-html {
-	background-image: url(http://placehold.it/1500x1000);
-	background-repeat: no-repeat;
-	background-position: center center;
-	width: auto;
-	height: 30rem;
-
+body {
+	margin: 0;
+	padding: 0;
 }
 
 .img-flex {
@@ -32,23 +31,29 @@ html {
 }
 
 .current {
-	background-color: #000531;
-	color; #fff;
+	background-color: #CDCDCD;
+	padding: 0.8em;
 }
 
-.nav-top {
-	font-size: 1.25em;
+.nav {
+	font-size: 1.1em;
 }
 
 .large-promo {
-	padding: 0 0 2rem 0 ;
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	width: 100%;
 }
 
 .searchfield {
 	padding: 0.7em 0.7em;
 	margin: 6px 0 6px 0;
+	font-size: 1.01em;
 }
 
 .searchform{
 	text-align: right;
+	padding-top: 2em;
 }
