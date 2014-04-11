@@ -2,13 +2,13 @@
   height: auto;
   width: 100%;
   overflow: hidden;
-  position: fixed;
+  position: absolute;
   z-index: 1000;
   background-color: rgba(255,255,255, 0.3);
 }
 
 .logo {
-	margin: 0.8em;
+	margin: 0.5em;
 	width: 90%;
 	float: left;
 	display: inline;
@@ -26,7 +26,7 @@ a:visited {
 }
 
 
-nav ol {
+.nav ol {
 	text-transform: uppercase;
 	list-style: none;
 	text-align: center;
@@ -47,20 +47,64 @@ nav ol {
 	}
 }
 
+@media only screen and (min-width: 17.5em){
+	
+	.banner {
+		height: 15rem;
+	}
+
+	.logo {
+		width: 70%;
+		margin: 0 3.8em;
+	}
+
+	.nav {
+		font-size: 0.9em;
+	}
+}
+
+@media only screen and (min-width: 25em){
+	.nav {
+		font-size: 1em;
+		height: 3em;
+	}
+
+	.banner {
+		height: 20rem;
+	}
+}
+
 
 @media only screen and (min-width: 30em){
+	.nav {
+		font-size: 0.8em;
+		text-align: right;
+	}
+
 	.nav .list-item {
 		display: inline-block;
 	}
 
-	nav ol {
-		text-align: right;
+	.logo {
+		width: 50%;
+		margin: 0.5em 1em;
 	}
 
+	.banner {
+		height: 30rem;
+	}
 }
 
 
-@media only screen and (min-width: em){
+@media only screen and (min-width: 37.5em){
+	.nav {
+		font-size: 1em;
+		margin-top: 1em;
+	}
+
+	.banner {
+		height: 35rem;
+	}
 	
 }
 
