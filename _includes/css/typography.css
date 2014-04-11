@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
-  margin: 0 0 0.5 0rem;
+  margin: 0 0 0.5rem 0;
 }
 
 .yotta {
@@ -74,7 +74,6 @@ small, .milli {
 
 .mini {
   font-size: 0.4rem;
-  padding
 }
 
 .push {
