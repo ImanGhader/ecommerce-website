@@ -7,10 +7,11 @@ price: $12
 image: red-scarf.jpg
 ---
 
-red red red red red red I really like pink scarfs so this is going to be the first product I design my little page on and now I'm hungry. I dont know why I would have a link here but here it it [anyways](http://en.wikipedia.org/wiki/anyways).
+When I saw this beautiful print, I had to have it for a scarf. It is chiffon and has the warmest tones throughout. This leopard print infinity scarf can be worn as a double or as a single as shown in my photos. It measures a 60" circumference x is 9" wide. It is machine washable on gentle cycle. This is a must have in your wardrobe accessories to wear with so many outfits!
 
 ##Overview
 
-- Cotton
-- 1 piece 
-- Very long
+-Handmade item
+-Materials: fabric, thread
+-Feedback: 2 reviews
+-Ships worldwide from Pennsylvania, United States

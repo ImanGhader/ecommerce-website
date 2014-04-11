@@ -14,10 +14,15 @@
 	display: inline;
 }
 
-nav {
-	padding-top: 1rem;
+.nav {
 	color: #fff;
-	font-size: 0.9em;
+	font-size: 0.8em;
+	height: 2.5em;
+}
+
+.nav,
+a:visited {
+	color: #fff;
 }
 
 
@@ -31,13 +36,15 @@ nav ol {
 .banner{
 	background-image: url(../images/banner-1.jpg);
 	background-size: cover;
-	padding: 10em 1em 1em;;
 	text-align: center;
+	height: 20rem;
 }
 
-.bannertext {
-	background-color: rgba(255,255,255, 0.3);
-	display: none;
+@media only screen and (min-width: 15em){
+	
+	.banner {
+		height: 11rem;
+	}
 }
 
 
@@ -53,9 +60,7 @@ nav ol {
 }
 
 
-@media only screen and (min-width: 37.5em){
-	.bannertext {
-		display: block;
-	}
+@media only screen and (min-width: em){
+	
 }
 
