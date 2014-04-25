@@ -7,7 +7,7 @@ price: $12
 image: crown-ring.jpg
 ---
 
-This crown ring is a great 
+This crown ring is a great gift to your guy friend or you boyfriend. It is unisex and therefore can be worn by all females as well. 
 
 ##Overview
 

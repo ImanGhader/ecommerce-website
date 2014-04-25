@@ -7,10 +7,10 @@ price: $12
 image: tree-neck.jpg
 ---
 
-Tree I really like pink scarfs so this is going to be the first product I design my little page on and now I'm hungry. I dont know why I would have a link here but here it it [anyways](http://en.wikipedia.org/wiki/anyways).
+Image inside of necklace is replacable.
 
 ##Overview
 
-- Cotton
-- 1 piece 
+- 2 piece 
 - Very long
+- Stainless steel
