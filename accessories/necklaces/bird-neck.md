@@ -4,7 +4,7 @@ category: accessories
 type: necklaces
 title: Bird Necklace
 price: $12
-image: bird-neck.jpg
+image: /bird-neck.jpg
 ---
 
 Bird I really like pink scarfs so this is going to be the first product I design my little page on and now I'm hungry. I dont know why I would have a link here but here it it [anyways](http://en.wikipedia.org/wiki/anyways).

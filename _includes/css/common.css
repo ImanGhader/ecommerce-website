@@ -25,6 +25,10 @@ body {
 	padding: 0;
 }
 
+.body-padding {
+	padding: 1rem 2rem 0 2rem;
+}
+
 .img-flex {
 	display: block;
 	width: 100%;
@@ -44,6 +48,14 @@ body {
 .searchform{
 	text-align: center;
 	font-size: 0.4em;
+	padding-top: 1rem;
+}
+
+@media only screen and (min-width: 56.25em){ /*900*/
+	.body-padding {
+		padding: 1rem 8rem 0 8rem;
+	} 
+
 }
 
 

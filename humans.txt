@@ -1,18 +1,19 @@
 # humanstxt.org
 
 # TEAM
-
-
+Iman Ghader - Design and code
 
 ---
 
 # THANKS
 
-Public domain images from copyrightexpired.com
-Spinosaurus icon by Dactrtr; http://thenounproject.com/term/spinosaurus/24614/
+Thanks to my professor Thomas Bradley. 
+
+Images obtained from google.com with the correct usage rights.
 
 ---
 
 # TECHNOLOGY
 
-
+sublime
+github.io

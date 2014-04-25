@@ -33,6 +33,10 @@ a:visited {
 	padding: 0;
 }
 
+.nav li {
+	padding: 0 1rem 0 0;
+}
+
 .banner{
 	background-image: url(../images/banner-1.jpg);
 	background-size: cover;
@@ -40,14 +44,18 @@ a:visited {
 	height: 20rem;
 }
 
-@media only screen and (min-width: 15em){
+@media only screen and (min-width: 15em){ /*240*/
 	
 	.banner {
 		height: 11rem;
 	}
+
+	.nav {
+		padding-top: 0.25em;
+	}
 }
 
-@media only screen and (min-width: 17.5em){
+@media only screen and (min-width: 17.5em){ /*280*/
 	
 	.banner {
 		height: 15rem;
@@ -63,10 +71,9 @@ a:visited {
 	}
 }
 
-@media only screen and (min-width: 25em){
+@media only screen and (min-width: 25em){ /*400*/
 	.nav {
 		font-size: 1em;
-		height: 3em;
 	}
 
 	.banner {
@@ -75,9 +82,9 @@ a:visited {
 }
 
 
-@media only screen and (min-width: 30em){
+@media only screen and (min-width: 30em){ /*480*/
 	.nav {
-		font-size: 0.8em;
+		font-size: 1em;
 		text-align: right;
 	}
 
@@ -86,25 +93,51 @@ a:visited {
 	}
 
 	.logo {
-		width: 50%;
-		margin: 0.5em 1em;
+		width: 100%;
+		margin: 0;
 	}
 
 	.banner {
 		height: 30rem;
 	}
+
+	.nav li {
+		padding: 0 0.15rem 0 0;
+	}
 }
 
 
-@media only screen and (min-width: 37.5em){
+@media only screen and (min-width: 37.5em){ /*600*/
 	.nav {
 		font-size: 1em;
-		margin-top: 1em;
+		margin-top: 0.15em;
 	}
 
 	.banner {
 		height: 35rem;
 	}
-	
+
+	.nav li {
+		padding: 0 1rem 0 0;
+	}
 }
+
+@media only screen and (min-width: 50em){ /*800*/
+	.nav {
+		font-size: 0.9em;
+		margin-top: 1em;
+	}
+}
+
+@media only screen and (min-width: 53.125em){ /*850*/
+	.nav {
+		font-size: 1em;
+		margin-top: 0.8em;
+	}
+
+	.logo {
+		max-width: 90%;
+	}
+}
+	
 

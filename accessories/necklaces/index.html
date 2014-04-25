@@ -5,6 +5,17 @@ showbanner: yes
 ---
 
 <div>
+
+	<div>
+		<nav>
+			<ol class="filternav">
+				<li><a href="{{site.baseurl}}/accessories/scarfs/">Scarfs</li>
+				<li><a href="{{site.baseurl}}/accessories/rings/">Rings</li>
+				<li><a href="{{site.baseurl}}/accessories/necklaces/">Necklaces</li>
+			</ol>
+		</nav>
+	</div>
+
 	<div>
 		<h1>NECKLACES</h1>
 	</div>
@@ -17,7 +28,7 @@ showbanner: yes
 	{% for access in site.pages %}
 		{% if access.type == 'necklaces' %}
 
-			<li class="list-item unit unit-s-1 unit-m-1-2 unit-l-1-3">
+			<li class="space-under list-item unit unit-s-1 unit-m-1-2 unit-l-1-3">
 				<a href="{{site.baseurl}}{{access.url}}">
 					<img class="img-flex" src="{{site.baseurl}}/images/{{access.image}}" alt"">
 					{{access.title}}

@@ -10,6 +10,15 @@ ol {
 	list-style: none;
 	text-align: center;
 	padding: 0;
+	margin-top: 1rem;
+}
+
+.space-under {
+	margin-bottom: 1rem;
+}
+
+.md-img {
+	max-width: 30%;
 }
 
 
