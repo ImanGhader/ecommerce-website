@@ -7,12 +7,10 @@ price: $12
 image: claw-ring.jpg
 ---
 
-Claw claw claw claw claw claw really like pink scarfs so this is going to be the first product I design my little page on and now I'm hungry. I dont know why I would have a link here but here it it [anyways](http://en.wikipedia.org/wiki/anyways).
+Who would say no to a claw ring? It twists around the finger only to connect on the other side. Fits comfortably on the finger.
 
 ##Overview
 
-- Cotton
-- 1 piece 
-- Very long
+- Stainless steal 
 
 <a class="btn" href="{{site.baseurl}}/cart.html">I want it!</a>
