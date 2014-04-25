@@ -7,10 +7,8 @@ price: $12
 image: crown-ring.jpg
 ---
 
-Crown I really like pink scarfs so this is going to be the first product I design my little page on and now I'm hungry. I dont know why I would have a link here but here it it [anyways](http://en.wikipedia.org/wiki/anyways).
+This crown ring is a great 
 
 ##Overview
 
-- Cotton
-- 1 piece 
-- Very long
+- Stainless steal 

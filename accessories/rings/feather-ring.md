@@ -7,7 +7,7 @@ price: $12
 image: /feather-ring.jpg
 ---
 
-Feather
+Collected from a local native store, this ring hold many secrects of the natives that lived on this land before us.
 
 ##Overview
 
